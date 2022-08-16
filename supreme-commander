@@ -20,7 +20,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    announce = ["UEF ", "Fatboy rush deez nuts", "a little trace of incredible, dinosaur, fantastic, Seraphim DNA", "Cheating AI is best AI", "Calling all Supreme Commanders: It is time to team up on Senior", "Daily reminder to spam Gunships", "Embrace Monkelord", "Amberg wants to play Supreme Commander again doesn't he?", "Greene challenges Senior to a 1v1 nukes enabled"]
+    announce = ["UEF ", "a little trace of incredible, dinosaur, fantastic, Seraphim DNA", "Cheating AI is best AI", "Calling all Supreme Commanders: It is time to team up on Senior", "Daily reminder to spam Gunships", "Embrace Monkelord", "The Man challenges Senior to a 1v1 nukes enabled"]
     triggers = ["monke","supreme commander", "supreme", "sc", "supreme commander 2", "sc2", "uef", "illuminate", "cybran", "monkeylord"]
 
     if (message.content).lower() in triggers:
